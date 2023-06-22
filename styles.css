@@ -1,0 +1,44 @@
+body {
+  font-family: Arial, sans-serif;
+  text-align: center;
+  background-image: url(temperature.jpg);
+}
+h1{
+  color: rgb(32, 113, 15)
+  font-size: 70px;
+  margin-top: 170px;
+}
+
+.container {
+  color:rgba(8, 2, 56, 0.518);
+  margin-top: 20px;
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 33px;
+  padding:20px 30px;
+  font-weight: 700;
+}
+
+input[type="number"] {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 20px;
+  width: 280px;
+  padding: 5px;
+  margin: 15px;
+
+}
+
+button {
+  font-size: 45px;
+  padding: 10px 20px;
+  margin: 10px;
+  color:rgb(19, 49, 104);
+  background-color:rgb(19, 53, 87);
+  border: 1px solid rgb(21, 13, 1);
+  border-radius: 5px;
+  cursor: pointer;
+}
+button:hover{
+  color:white;
+  background-color: rgb(65, 165, 182);
+  border:1px solid black;
+}
